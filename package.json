@@ -30,6 +30,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
+    "@trufactor/core": "^0.2.1",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.4"
   },
