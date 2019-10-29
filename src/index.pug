@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+  head
+    title mapbox-gl-js-boilerplate
+    base(href='/')
+    meta(charset='utf-8')
+    meta(name='version',content='0.1.0')
+    meta(http-equiv='X-UA-Compatible',content='IE=edge')
+    meta(name='viewport',content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description',content='A simple example of how to setup mapbox using TruFactor data interrogation services')
+    link(rel='stylesheet',href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.47.0/mapbox-gl.js')
+    script(src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js')
+  body
+    app
+    script.
+      mapboxgl.accessToken="pk.eyJ1IjoiaW5tb2Jpa2MiLCJhIjoiY2p3YjJnOWl2MDBhdzQ4cDR5dnR2MGZlNyJ9.eIMbQXhSjEKZ5JNbtdsCnw";
+    noscript
+      | JavaScript is disabled in your browser.
+      a(href='http://www.enable-javascript.com/',target='_blank') Here
+      | is how to enable it.
+    script(src='index.js')
+

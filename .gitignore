@@ -1,0 +1,11 @@
+# IDE
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+
+# Project
+dist/
+.parcel/
