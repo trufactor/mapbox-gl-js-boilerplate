@@ -1,6 +1,7 @@
 # Mapbox GL JS Boilerplate
 This boilerplate helps setup a tiny mapbox frontend project that leverages TruFactor data to provide low-lift geospatial demographic queries.
 
+![example map](example.png)
 ## Setup
 Getting started is very simple. Ensure you have the latest LTS of `node.js` & `npm` installed. Provided that's the case you can install the projects dependencies with a basic command from the project root directory.
 ```
